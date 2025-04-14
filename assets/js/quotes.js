@@ -9,6 +9,7 @@ const quotes = [
     { text : "Il y a 9 millions de terroristes dans le monde , j'en tue un et il a les pieds plus petit que ma soeur.", img: "./assets/img/die.jpg" },
     { text : "Petit, tu es doué, très doué ; mais tant que je serai dans le métier, tu ne seras jamais que le second.", img: "./assets/img/mask.jpg" },
     { text : "S'améliorer soi-même c'est de la masturbation. ", img: "./assets/img/fight-club.jpg" },
+    { text : "C'est vraiment un gros tas de merde.", img: "./assets/img/ian.jpeg" },
 ]
 
 const displayText = document.getElementById("displayText")
