@@ -1,5 +1,4 @@
 const quotes = [
-    { text : "Lao-Tseu l'a dit, il faut vous couper la tête!", img: "./assets/img/laozi.jpg" },
     { text : "Il faut battre le frère tant qu'il est chauve.", img: "./assets/img/chauve.webp" },
     { text : "-Vous voulez un whiskey?<br>-Non, juste un doigt.<br>-Vous ne voulez pas un whiskey d'abord?", img: "./assets/img/peur.jpg" },
     { text : "Gorben, Gorben, Gorben, Gorben!", img: "./assets/img/gorben.jpg" },
@@ -30,4 +29,5 @@ document.addEventListener("click", () => {
     displayImg.appendChild(image)
     displayText.appendChild(textContainer);
     image.classList.add("img-w")
+    image.classList.add("h-158")
 })
