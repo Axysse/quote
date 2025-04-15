@@ -14,40 +14,51 @@
   <header>
     <nav class=" dark:bg-gray-900 w-full z-20 top-0 start-0 border-b border-black dark:border-gray-600">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
           <img src="Assets/img/pika.jpg" class="h-16" alt="Logo">
           <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Dans ta quote!</span>
         </a>
-        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-          <ul class="flex p-4 md:p-0 mt-4 font-medium rtl:space-x-reverse md:flex-row md:mt-0 ">
-            <li class="border-r-2 pr-12">
-              <a href="" class=" py-2 px-3 " aria-current="page">Quotes</a>
-            </li>
-          </ul>
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 pr-12" id="navbar-sticky">
+          <a href="quote_movie.html" class="border-r-2 py-2 px-3 " aria-current="page"><svg class="w-12"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+              <path fill="#12175c"
+                d="M0 96C0 60.7 28.7 32 64 32l384 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zM48 368l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm368-16c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0zM48 240l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm368-16c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0zM48 112l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16L64 96c-8.8 0-16 7.2-16 16zM416 96c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0zM160 128l0 64c0 17.7 14.3 32 32 32l128 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32L192 96c-17.7 0-32 14.3-32 32zm32 160c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l128 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-128 0z" />
+            </svg></a>
+          <a href="quote_history.html" class=" py-2 px-3 " aria-current="page"><svg class="w-12 h-11" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+              <path fill="#0e1461"
+                d="M320 256l0 192c0 17.7 14.3 32 32 32s32-14.3 32-32l0-224 0-160c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 128L64 192 64 64c0-17.7-14.3-32-32-32S0 46.3 0 64L0 448c0 17.7 14.3 32 32 32s32-14.3 32-32l0-192 256 0z" />
+            </svg></a>
+
         </div>
       </div>
     </nav>
   </header>
 
-  <main>
+  <main class="mx-64">
     <section class="mt-12">
-      <h1 class="text-3xl font-bold text-center">Clique pour découvrir une nouvelle perle de sagesse!</h1>
-      <article class="flex flex-row bg-zinc-100 my-32 mx-24 h-160 border-solid border-4 border-black rounded-xl shadow-2xl">
-        <div class="h-96 w-[50%] flex flex flex-row justify-center items-center">
-          <div id="displayText" class="text-2xl font-semibold mx-12">
-            <h2 class="text-xl font-semibold mb-4">Selon la sagesse des anciens...</h2>
-          </div>
-        </div>
-        <div id="displayImg" class="w-[50%] ">
-
-        </div>
+      <h1 class="text-3xl font-bold text-center">Quand les velléités du monde moderne vous essouflent, il ne vous manque
+        qu'un coup de pouce pour trouver l'inspiration.</h1>
+      <article class="mt-8">
+        <h2 class="text-xl font-bold text-center">Choisis ton thème :</h2>
       </article>
+      <div class="flex flex-row justify-around mt-32">
+        <div class="flex flex-col items-center">
+          <a href="quote_movie.html"><img class="w-96 h-132" src="./assets/img/scorcese.jpeg"></a>
+          <h3 class="text-xl font-semibold">InspiraCinéma</h3>
+        </div>
+        <div class="flex flex-col items-center">
+          <a href="quote_history.html"><img class="w-96 h-132" src="./assets/img/fine.jpg"></a>
+          <h3 class="text-xl font-semibold">InspirHistory</h3>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer></footer>
 
-  <script src="assets/js/quotes.js"></script>
+  <!-- <script src="assets/js/quotesMovies.js"></script> -->
 </body>
 
 </html>
